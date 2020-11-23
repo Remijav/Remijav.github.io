@@ -4,7 +4,7 @@
   "description": "PWA Ginko",
   "icons": [
     {
-      "src": "/icons/maskable-icon.png",
+      "src": "/icons/maskable_icon.png",
       "type": "image/png",
       "sizes": "196x196",
       "purpose": "any maskable"
@@ -50,7 +50,7 @@
       "sizes": "256x256"
     },
     {
-      "src": "/icons/icons-512.png",
+      "src": "/icons/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
