@@ -3,12 +3,14 @@
         console.log('[Service Worker] Install');
     });
     
-    var cacheName = 'GinkoBus-v1';
-    var appShellFiles = [
-      './',
+    var cacheName = 'ginkobusPWA-v1';
+
+    var contentToCache = [
       './index.html',
+      './manifest.webmanifest",
       './app.js',
       './style.css',
+      './icons/favicon.ico',
       './icons/icon-32.png',
       './icons/icon-64.png',
       './icons/icon-96.png',
@@ -17,15 +19,13 @@
       './icons/icon-180.png',
       './icons/icon-192.png',
       './icons/icon-256.png',
-      './icons/icon-512.png'
+      './icons/icon-512.png',
+      './icons/maskable_icon.png'
     ];
     
     
-    var gamesImages = [];
-    for(var i=0; i<games.length; i++) {
-      gamesImages.push('data/img/'+games[i].slug+'.jpg');
-    }
-    var contentToCache = appShellFiles.concat(gamesImages);
+
+
     
     self.addEventListener('install', (e) => {
     	  console.log('[Service Worker] Install');
