@@ -1,12 +1,12 @@
 {
   "short_name": "Ginko",
   "name": "GinkoBus",
-  "description": "Ginko bus lines",
+  "description": "PWA Ginko",
   "icons": [
     {
-      "src": "/icons/icons-192.png",
+      "src": "/icons/icon-32.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "32x32"
     },
     {
       "src": "/icons/icons-512.png",
@@ -14,18 +14,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/?source=https://remijav.github.io/",
+  "start_url": "/index.html",
   "background_color": "#3367D6",
   "display": "fullscreen",
-  "scope": "/?source=https://remijav.github.io/",
   "theme_color": "#3367D6",
-  "shortcuts": [
-    {
-      "name": "GinkoBus",
-      "short_name": "Ginko",
-      "description": "Ginko bus lines",
-      "url": "/?source=https://remijav.github.io/",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
-    }
-  ]
 }
