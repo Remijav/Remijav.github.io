@@ -5,19 +5,19 @@
     
     var cacheName = 'GinkoBus-v1';
     var appShellFiles = [
-      '/Remijav.github.io/',
-      '/Remijav.github.io/index.html',
-      '/Remijav.github.io/app.js',
-      '/Remijav.github.io/style.css',
-      '/Remijav.github.io/icons/icon-32.png',
-      '/Remijav.github.io/icons/icon-64.png',
-      '/Remijav.github.io/icons/icon-96.png',
-      '/Remijav.github.io/icons/icon-128.png',
-      '/Remijav.github.io//icons/icon-168.png',
-      '/Remijav.github.io//icons/icon-180.png',
-      '/Remijav.github.io/icons/icon-192.png',
-      '/Remijav.github.io/icons/icon-256.png',
-      '/Remijav.github.io/icons/icon-512.png'
+      './',
+      './index.html',
+      './app.js',
+      './style.css',
+      './icons/icon-32.png',
+      './icons/icon-64.png',
+      './icons/icon-96.png',
+      './icons/icon-128.png',
+      './icons/icon-168.png',
+      './icons/icon-180.png',
+      './icons/icon-192.png',
+      './icons/icon-256.png',
+      './icons/icon-512.png'
     ];
     
     
